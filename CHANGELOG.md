@@ -1,5 +1,11 @@
 # 변경 이력
 
+## 0.3.0 — 2026-10-26
+
+- 공개명을 웹 데이터 수집기로 통일하고 web-data-collector / python -m web_data_collector을 제공합니다.
+- 기존 명령·Python 모듈과 저장·재개·Excel 복원 계약을 유지합니다.
+- README·설치 예제·CI·배포 ZIP을 새 이름에 맞춥니다. 제작자·저작권 SIONLAB은 유지합니다.
+
 ## 0.2.0 — 2026-10-26
 
 - Excel Overview 보기와 Collection 수집 범위·조건·내보낸 시각을 추가했습니다. 원문 복원용 시트는 유지합니다.

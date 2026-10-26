@@ -7,7 +7,7 @@ from .core import CollectorError, collect, load_records, verify_job
 from .exporting import export_job, read_xlsx
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog='sionlab-web-collector')
+    parser = argparse.ArgumentParser(prog='web-data-collector', description='웹 데이터 수집기 0.3.0 — 웹 목록 수집과 Excel 저장')
     sub = parser.add_subparsers(dest='command', required=True)
     for command in ('crawl', 'resume'):
         item = sub.add_parser(command)

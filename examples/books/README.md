@@ -5,10 +5,10 @@
 제품 루트에서 실행합니다. 이 명령은 **외부 HTTP를 실제 호출**하며 자동 로컬 시험에는 포함되지 않습니다.
 
 ```bash
-.venv/bin/sionlab-web-collector crawl --config examples/books/config.json --job /tmp/books-list.sqlite
-.venv/bin/sionlab-web-collector crawl --config examples/books/detail-config.json --job /tmp/books-detail.sqlite
-.venv/bin/sionlab-web-collector export --job /tmp/books-list.sqlite --output /tmp/books-list.xlsx
-.venv/bin/sionlab-web-collector verify --job /tmp/books-list.sqlite --xlsx /tmp/books-list.xlsx
+.venv/bin/web-data-collector crawl --config examples/books/config.json --job /tmp/books-list.sqlite
+.venv/bin/web-data-collector crawl --config examples/books/detail-config.json --job /tmp/books-detail.sqlite
+.venv/bin/web-data-collector export --job /tmp/books-list.sqlite --output /tmp/books-list.xlsx
+.venv/bin/web-data-collector verify --job /tmp/books-list.sqlite --xlsx /tmp/books-list.xlsx
 ```
 
 목록은 두 페이지 후 다음 URL을 남긴 partial 결과가 예상됩니다. 상세는 단일 항목입니다. 웹 페이지 구성과 결과 건수는 외부 상태에 따라 달라집니다. 실조회 결과는 상위 검증 기록에서 별도로 확인합니다. 차단 시 중단하며 우회하지 않습니다.

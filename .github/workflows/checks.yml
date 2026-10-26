@@ -15,5 +15,7 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python setup-lab.py
       - run: .venv/bin/python -m unittest discover -s tests -p 'test_*.py' -v
-      - run: .venv/bin/python -m sionlab_web_collector --help
+      - run: .venv/bin/python -m web_data_collector --help
+      - run: .venv/bin/web-data-collector --help
+      - run: .venv/bin/sionlab-web-collector --help
       - run: .venv/bin/python examples/run_examples.py --output "${{ runner.temp }}/examples"

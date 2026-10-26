@@ -3,9 +3,9 @@ requires = ["setuptools==68.1.2", "wheel==0.45.1"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sionlab-web-collector"
-version = "0.2.0"
-description = "SIONLAB resumable web collection and lossless spreadsheet export"
+name = "web-data-collector"
+version = "0.3.0"
+description = "웹 데이터 수집기 — 웹 목록 수집과 Excel 저장"
 requires-python = ">=3.10"
 authors = [{name = "SIONLAB"}]
 license = {text = "MIT"}
@@ -16,6 +16,7 @@ dependencies = ["beautifulsoup4==4.15.0", "openpyxl==3.1.5"]
 browser = ["playwright==1.61.0"]
 
 [project.scripts]
+web-data-collector = "sionlab_web_collector.cli:main"
 sionlab-web-collector = "sionlab_web_collector.cli:main"
 
 [tool.setuptools.packages.find]
