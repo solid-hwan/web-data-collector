@@ -1,0 +1,12 @@
+{
+  "start_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "item_selector": "article.product_page",
+  "fields": {
+    "title": {"selector": "h1"},
+    "price_display": {"selector": ".price_color"},
+    "description": {"selector": "#product_description + p"}
+  },
+  "unique_key": "title",
+  "max_pages": 1,
+  "max_items": 1
+}

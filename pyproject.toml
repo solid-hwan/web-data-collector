@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==68.1.2", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sionlab-web-collector"
+version = "0.2.0"
+description = "SIONLAB resumable web collection and lossless spreadsheet export"
+requires-python = ">=3.10"
+authors = [{name = "SIONLAB"}]
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = ["beautifulsoup4==4.15.0", "openpyxl==3.1.5"]
+
+[project.optional-dependencies]
+browser = ["playwright==1.61.0"]
+
+[project.scripts]
+sionlab-web-collector = "sionlab_web_collector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

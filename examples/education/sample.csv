@@ -1,0 +1,4 @@
+﻿identity,source_url,f1:date:raw,f1:date:normalized,f1:date:missing_reason,f2:id:raw,f2:id:normalized,f2:id:missing_reason,f3:seats:raw,f3:seats:normalized,f3:seats:missing_reason,f4:title:raw,f4:title:normalized,f4:title:missing_reason
+"""[\""E-001\""]""","""http://127.0.0.1:44179/education/page1.html""","""2030-04-02""","""2030-04-02""",null,"""E-001""","""E-001""",null,"""20""","""20""",null,"""가상 데이터 정리 입문""","""가상 데이터 정리 입문""",null
+"""[\""E-002\""]""","""http://127.0.0.1:44179/education/page1.html""","""2030-04-09""","""2030-04-09""",null,"""E-002""","""E-002""",null,"""12""","""12""",null,"""가상 업무 자동화 워크숍""","""가상 업무 자동화 워크숍""",null
+"""[\""E-003\""]""","""http://127.0.0.1:44179/education/page2.html""","""2030-04-16""","""2030-04-16""",null,"""E-003""","""E-003""",null,null,null,"""element_or_attribute_missing""","""가상 공공데이터 실습""","""가상 공공데이터 실습""",null

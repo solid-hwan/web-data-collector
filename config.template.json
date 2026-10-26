@@ -1,0 +1,21 @@
+{
+  "start_url": "https://example.invalid/list",
+  "item_selector": "article",
+  "fields": {
+    "id": {
+      "selector": ".id"
+    },
+    "title": {
+      "selector": "h2"
+    }
+  },
+  "next_selector": "a.next",
+  "unique_key": [
+    "id"
+  ],
+  "max_pages": 2,
+  "max_items": 50,
+  "requests_per_second": 1,
+  "concurrency": 1,
+  "adapter": "http"
+}

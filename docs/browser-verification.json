@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "scope": "local-real-chromium-delayed-javascript",
+  "playwright_version": "1.61.0",
+  "browser": "existing cached Chromium headless; no browser download",
+  "stored_count": 1,
+  "http_requests": 2,
+  "external_requests": 0,
+  "request_interval_seconds": 0.968,
+  "command": "AGENT_SERIAL=1 AGENT_CPU_QUOTA=200% agent-throttle env PYTHONPATH=<product>/src <product>/.venv/bin/python <product>/examples/check_browser.py",
+  "source_sha256": {
+    "src/sionlab_web_collector/core.py": "95f49f347ac24ec29b77214e02f5f3acbb21b1462432fec1691a95eabacfef7b",
+    "examples/check_browser.py": "e48ff75798aaa1d0a6080ddf6867e87ed394d568c7ea9839d0b783df6fb23b45"
+  },
+  "resource_limit": "agent-throttle used; systemd CPUQuota unavailable, fallback nice",
+  "limitations": [
+    "external dynamic sites not verified",
+    "Windows not verified"
+  ],
+  "run_id": "20261024T081658.072950Z-e3d561b4",
+  "checked_at": "2026-10-24T08:16:58.073256+00:00"
+}

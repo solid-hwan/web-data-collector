@@ -1,0 +1,20 @@
+{
+  "start_url": "http://127.0.0.1:8765/products/page1.html",
+  "item_selector": "article",
+  "fields": {
+    "id": {
+      "selector": ".id"
+    },
+    "title": {
+      "selector": "h2"
+    },
+    "price": {
+      "selector": ".price",
+      "normalize": "decimal"
+    }
+  },
+  "next_selector": "a.next",
+  "unique_key": "id",
+  "max_pages": 2,
+  "max_items": 50
+}

@@ -1,0 +1,4 @@
+﻿identity,source_url,f1:id:raw,f1:id:normalized,f1:id:missing_reason,f2:price:raw,f2:price:normalized,f2:price:missing_reason,f3:title:raw,f3:title:normalized,f3:title:missing_reason
+"""[\""P-001\""]""","""http://127.0.0.1:44179/products/page1.html""","""P-001""","""P-001""",null,"""128,000.00""","""128000.00""",null,"""가상 작업등 A""","""가상 작업등 A""",null
+"""[\""P-002\""]""","""http://127.0.0.1:44179/products/page1.html""","""P-002""","""P-002""",null,"""900719925474099312345.67""","""900719925474099312345.67""",null,"""가상 작업등 B""","""가상 작업등 B""",null
+"""[\""P-003\""]""","""http://127.0.0.1:44179/products/page2.html""","""P-003""","""P-003""",null,null,null,"""element_or_attribute_missing""","""=SUM(1,2)""","""=SUM(1,2)""",null
